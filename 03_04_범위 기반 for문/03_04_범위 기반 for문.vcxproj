@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{16526e01-8291-4abe-b1d1-372eb5848079}</ProjectGuid>
-    <RootNamespace>My0102첫번째예제</RootNamespace>
+    <ProjectGuid>{4c57dffa-0aa7-4391-9781-7d63f65d00b3}</ProjectGuid>
+    <RootNamespace>My0304범위기반for문</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>03_02_참조형</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
