@@ -1,12 +1,12 @@
 #include <iostream>
 
 /*
-* º¯¼ö¸íÀÇ Áßº¹À» ´ëºñÇÏ±â À§ÇÑ ¹®¹ý
-* ½Äº°ÀÚ::º¯¼ö¸í
+* ë³€ìˆ˜ëª…ì˜ ì¤‘ë³µì„ ëŒ€ë¹„í•˜ê¸° ìœ„í•œ ë¬¸ë²•
+* ì‹ë³„ìž::ë³€ìˆ˜ëª…
 * 
-* C¾ð¾îÀÇ Àü¿ªº¯¼ö´Â C++¹®¹ý»ó ÀüºÎ Global namespace¿¡ ¼ÓÇÔ
+* Cì–¸ì–´ì˜ ì „ì—­ë³€ìˆ˜ëŠ” C++ë¬¸ë²•ìƒ ì „ë¶€ Global namespaceì— ì†í•¨
 * 
-* namespace´Â ÁßÃ¸ÀÌ °¡´ÉÇÔ
+* namespaceëŠ” ì¤‘ì²©ì´ ê°€ëŠ¥í•¨
 */
 
 using namespace std;

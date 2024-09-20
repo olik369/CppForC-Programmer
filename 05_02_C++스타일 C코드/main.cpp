@@ -1,12 +1,12 @@
 #include <iostream>
 #include <stdio.h>
 
-//C++ ½ºÅ¸ÀÏ CÄÚµå ¿¹½Ã (ÀÚ·á¿Í ÇÔ¼ö°¡ ¶³¾îÁ®¼­ Á¤ÀÇÇØÁà¾ßÇÔ)
+//C++ ìŠ¤íƒ€ì¼ Cì½”ë“œ ì˜ˆì‹œ (ìë£Œì™€ í•¨ìˆ˜ê°€ ë–¨ì–´ì ¸ì„œ ì •ì˜í•´ì¤˜ì•¼í•¨)
 typedef struct USERDATA
 {
 	int age;
 	char name[32];
-	void(*printData)(struct USERDATA* pUser);	//ÇÔ¼ö Æ÷ÀÎÅÍ¸¦ º¯¼ö·Î ³ÖÀ½
+	void(*printData)(struct USERDATA* pUser);	//í•¨ìˆ˜ í¬ì¸í„°ë¥¼ ë³€ìˆ˜ë¡œ ë„£ìŒ
 } USERDATA;
 
 void printData(USERDATA* pUser)
@@ -18,11 +18,11 @@ using namespace std;
 
 int main()
 {
-	USERDATA user = { 20, "Ã¶¼ö", printData };
+	USERDATA user = { 20, "ì² ìˆ˜", printData };
 	user.printData(&user);
 
-	//C++¿¡¼­´Â &user¸¦ ¸Å°³º¯¼ö·Î ³Ñ±â´Â ÇàÀ§¸¦ ¾ø¾Ö±â À§ÇØ thisÆ÷ÀÎÅÍ¸¦ ¸¸µë
-	//ÄÚµå Á¦ÀÛÀÚ´Â ÄÚµå ÀÛ¼º½ÃÁ¡¿¡ ¹Ì·¡½ÃÁ¡ ÀÎ½ºÅÏ½ºÀÇ ÁÖ¼Ò¸¦ ¾Ë¼ö°¡ ¾ø±â¶§¹®
+	//C++ì—ì„œëŠ” &userë¥¼ ë§¤ê°œë³€ìˆ˜ë¡œ ë„˜ê¸°ëŠ” í–‰ìœ„ë¥¼ ì—†ì• ê¸° ìœ„í•´ thisí¬ì¸í„°ë¥¼ ë§Œë“¬
+	//ì½”ë“œ ì œì‘ìëŠ” ì½”ë“œ ì‘ì„±ì‹œì ì— ë¯¸ë˜ì‹œì  ì¸ìŠ¤í„´ìŠ¤ì˜ ì£¼ì†Œë¥¼ ì•Œìˆ˜ê°€ ì—†ê¸°ë•Œë¬¸
 
 	return 0;
 }
