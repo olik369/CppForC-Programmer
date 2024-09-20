@@ -23,6 +23,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_05_식별자 검색 순�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_06_Name mangling", "04_06_Name mangling\04_06_Name mangling.vcxproj", "{14235488-3D2D-46F3-A25B-0837FA694ECB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_01_대충 생각하는 객체란 무엇인가", "05_01_대충 생각하는 객체란 무엇인가\05_01_대충 생각하는 객체란 무엇인가.vcxproj", "{AD28D2EC-1F7A-4F49-885F-D00662242DA1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_02_C++스타일 C코드", "05_02_C++스타일 C코드\05_02_C++스타일 C코드.vcxproj", "{2D67A342-AFA3-4B05-A419-E612BE1E24ED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_03_클래스 기본 문법", "05_03_클래스 기본 문법\05_03_클래스 기본 문법.vcxproj", "{5E38657D-B500-4CBC-8467-183D90A8CE1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +117,30 @@ Global
 		{14235488-3D2D-46F3-A25B-0837FA694ECB}.Release|x64.Build.0 = Release|x64
 		{14235488-3D2D-46F3-A25B-0837FA694ECB}.Release|x86.ActiveCfg = Release|Win32
 		{14235488-3D2D-46F3-A25B-0837FA694ECB}.Release|x86.Build.0 = Release|Win32
+		{AD28D2EC-1F7A-4F49-885F-D00662242DA1}.Debug|x64.ActiveCfg = Debug|x64
+		{AD28D2EC-1F7A-4F49-885F-D00662242DA1}.Debug|x64.Build.0 = Debug|x64
+		{AD28D2EC-1F7A-4F49-885F-D00662242DA1}.Debug|x86.ActiveCfg = Debug|Win32
+		{AD28D2EC-1F7A-4F49-885F-D00662242DA1}.Debug|x86.Build.0 = Debug|Win32
+		{AD28D2EC-1F7A-4F49-885F-D00662242DA1}.Release|x64.ActiveCfg = Release|x64
+		{AD28D2EC-1F7A-4F49-885F-D00662242DA1}.Release|x64.Build.0 = Release|x64
+		{AD28D2EC-1F7A-4F49-885F-D00662242DA1}.Release|x86.ActiveCfg = Release|Win32
+		{AD28D2EC-1F7A-4F49-885F-D00662242DA1}.Release|x86.Build.0 = Release|Win32
+		{2D67A342-AFA3-4B05-A419-E612BE1E24ED}.Debug|x64.ActiveCfg = Debug|x64
+		{2D67A342-AFA3-4B05-A419-E612BE1E24ED}.Debug|x64.Build.0 = Debug|x64
+		{2D67A342-AFA3-4B05-A419-E612BE1E24ED}.Debug|x86.ActiveCfg = Debug|Win32
+		{2D67A342-AFA3-4B05-A419-E612BE1E24ED}.Debug|x86.Build.0 = Debug|Win32
+		{2D67A342-AFA3-4B05-A419-E612BE1E24ED}.Release|x64.ActiveCfg = Release|x64
+		{2D67A342-AFA3-4B05-A419-E612BE1E24ED}.Release|x64.Build.0 = Release|x64
+		{2D67A342-AFA3-4B05-A419-E612BE1E24ED}.Release|x86.ActiveCfg = Release|Win32
+		{2D67A342-AFA3-4B05-A419-E612BE1E24ED}.Release|x86.Build.0 = Release|Win32
+		{5E38657D-B500-4CBC-8467-183D90A8CE1E}.Debug|x64.ActiveCfg = Debug|x64
+		{5E38657D-B500-4CBC-8467-183D90A8CE1E}.Debug|x64.Build.0 = Debug|x64
+		{5E38657D-B500-4CBC-8467-183D90A8CE1E}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E38657D-B500-4CBC-8467-183D90A8CE1E}.Debug|x86.Build.0 = Debug|Win32
+		{5E38657D-B500-4CBC-8467-183D90A8CE1E}.Release|x64.ActiveCfg = Release|x64
+		{5E38657D-B500-4CBC-8467-183D90A8CE1E}.Release|x64.Build.0 = Release|x64
+		{5E38657D-B500-4CBC-8467-183D90A8CE1E}.Release|x86.ActiveCfg = Release|Win32
+		{5E38657D-B500-4CBC-8467-183D90A8CE1E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
